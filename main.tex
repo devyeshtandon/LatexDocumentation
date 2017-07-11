@@ -1,0 +1,24 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\graphicspath{{images/}{../images/}}
+ 
+\usepackage{subfiles} 
+\usepackage{blindtext}
+ 
+\title{New Project}
+\author{Devyesh Tandon}
+\date{\today}
+ 
+\begin{document}
+\maketitle
+ 
+\subfile{section/abstract}
+\subfile{section/introduction}
+\subfile{section/previouswork}
+%\subfile{sections/flowchart}
+\subfile{section/results}
+\subfile{section/conclusion}
+ 
+\end{document}
